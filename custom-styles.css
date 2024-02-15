@@ -1,0 +1,242 @@
+<style>
+.pmpro_content_message {
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0px 5px 10px #0000005c;
+    margin: 30vh auto !important;
+    border-radius: 10px;
+    text-align: center;
+}
+.pmpro_content_message > a {
+	padding: 8px 20px !important;
+    background: #0c2f5b !important;
+    color: #fff !important;
+	border-radius: 5px !important;
+	border: 0px solid #0c2f5b !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    font-family: inherit !important;
+}
+.pmpro_login_wrap {
+    width: 400px !important;
+    padding: 30px !important;
+    box-shadow: 0px 5px 10px #00000047 !important;
+    margin:60px auto !important;
+    border-radius: 10px !important;
+}
+form#loginform input[type=text],form#loginform input[type=password] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+	
+/*  Registration field CSS	 */
+	form#pmpro_form {
+    padding: 20px 50px;
+    box-shadow: 0px 7px 10px #00000026 !important;
+    border-radius: 5px;
+}
+
+div#pmpro_pricing_fields {
+    text-align: center;
+    width: 600px;
+    background: #ffe7e7cf;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.pmpro_checkout {
+    width: 600px !important;
+    margin: 30px auto !important;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid  green !important;
+    border-radius: 10px !important;
+}
+
+form#pmpro_form hr {
+    display: none !important;
+}
+
+.pmpro_checkout .pmpro_checkout-fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+.pmpro_checkout-fields > * {
+    width: 50% !important;
+}
+	.pmpro_checkout-fields label{
+		margin-bottom: 10px !important;
+	}
+
+
+.pmpro_checkout-fields span.pmpro_asterisk {
+    display: none !important;
+}
+
+.pmpro_submit {
+    width: 600px;
+    margin: auto;
+}
+	div#pmpro_pricing_fields > .pmpro_checkout-fields {
+    display: block !important;
+    margin: auto !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+#pmpro_pricing_fields .pmpro_checkout-fields > * {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+	.pmpro_submit input#pmpro_btn-submit {
+    margin: auto !important;
+    text-align: center;
+    width: 100% !important;
+    background: red !important;
+    color: #fff !important;
+    border: 1px solid red !important;
+    border-radius: 5px;
+}
+.pmpro_submit input#pmpro_btn-submit:hover {
+    margin: auto !important;
+    text-align: center;
+    width: 100% !important;
+    background: #fff !important;
+    color: red !important;
+    border: 1px solid white !important;
+    border-radius: 5px;
+}
+	.pmpro_checkout >  h2{
+		margin-top: 0px !important;
+	}
+#pmpro_user_fields  .pmpro_checkout-fields > div:first-child {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#pmpro_user_fields .pmpro_checkout-fields > div:first-child > input {
+    max-width: 100% !important;
+}
+.pmpro_checkout-fields input {
+    width: 100%;
+    max-width: 98% !important;
+	
+}
+	
+	
+	
+	@media only screen and (max-width: 1000px) {
+	.pmpro_content_message {
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0px 5px 10px #0000005c;
+    margin: 30vh auto !important;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pmpro_login_wrap {
+    width: 400px !important;
+    padding: 30px !important;
+    box-shadow: 0px 5px 10px #00000047 !important;
+    margin:60px auto !important;
+    border-radius: 10px !important;
+}
+		form#pmpro_form {
+    padding: 10px;
+    box-shadow: 0px 7px 10px #00000026 !important;
+    border-radius: 5px;
+}
+	div#pmpro_pricing_fields {
+    text-align: center;
+    width: 100% !important;
+    background: #ffe7e7cf;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+	.pmpro_checkout {
+    width: 100% !important;
+    margin: 30px auto !important;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid  green !important;
+    border-radius: 10px !important;
+}
+	.pmpro_checkout-fields > * {
+    width: 50% !important;
+}
+	.pmpro_checkout-fields input {
+    width: 100% !important;
+    max-width: 98% !important;
+}
+	.pmpro_submit {
+    width: 100% !important;
+    margin: auto;
+}
+		#pmpro_user_fields .pmpro_checkout-fields > div:first-child > input {
+    max-width: 100% !important;
+}
+		
+	}
+	
+	@media only screen and (max-width: 600px) {
+	.pmpro_content_message {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 5px 10px #0000005c;
+    margin: 30vh auto !important;
+    border-radius: 10px;
+    text-align: center;
+}
+	
+	.pmpro_login_wrap {
+    width: 100% !important;
+    padding: 30px !important;
+    box-shadow: 0px 5px 10px #00000047 !important;
+    margin:60px auto !important;
+    border-radius: 10px !important;
+}
+		form#pmpro_form {
+    padding: 10px;
+    box-shadow: 0px 7px 10px #00000026 !important;
+    border-radius: 5px;
+}
+	div#pmpro_pricing_fields {
+    text-align: center;
+    width: 100% !important;
+    background: #ffe7e7cf;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+	.pmpro_checkout {
+    width: 100% !important;
+    margin: 30px auto !important;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid  green !important;
+    border-radius: 10px !important;
+}
+	.pmpro_checkout-fields > * {
+    width: 100% !important;
+}
+	.pmpro_checkout-fields input {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+	.pmpro_submit {
+    width: 100% !important;
+    margin: auto;
+}
+		#pmpro_user_fields .pmpro_checkout-fields > div:first-child > input {
+    max-width: 100% !important;
+}
+		
+	}
+	</style>
